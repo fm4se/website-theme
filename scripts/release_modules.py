@@ -76,7 +76,7 @@ def get_latest_hugo_version() -> Optional[str]:
 class Module:
   name: str  # e.g., blox-tailwind
   rel_dir: Path  # e.g., modules/blox-tailwind
-  module_path: str  # go module path e.g., github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
+  module_path: str  # go module path e.g., github.com/fm4se/website-theme/modules/blox-tailwind
   major: int  # 0,1,2,... (derived from module_path suffix /vN if any)
   requires: Set[str] = field(default_factory=set)  # module paths this module requires
   dependents: Set[str] = field(default_factory=set)  # reverse edge, filled later

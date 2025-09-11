@@ -82,11 +82,11 @@ export HUGOxPARAMSxDECAP_CMSxLOCAL_BACKEND=true
 
 # Link local modules for development (Hugo module replacements)
 export HUGO_MODULE_REPLACEMENTS="\
-github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind -> ../../../modules/blox-tailwind,\
-github.com/HugoBlox/hugo-blox-builder/modules/blox-analytics -> ../../../modules/blox-analytics,\
-github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify -> ../../../modules/blox-plugin-netlify,\
-github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal -> ../../../modules/blox-plugin-reveal,\
-github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms -> ../../../modules/blox-plugin-decap-cms\
+github.com/fm4se/website-theme/modules/blox-tailwind -> ../../../modules/blox-tailwind,\
+github.com/fm4se/website-theme/modules/blox-analytics -> ../../../modules/blox-analytics,\
+github.com/fm4se/website-theme/modules/blox-plugin-netlify -> ../../../modules/blox-plugin-netlify,\
+github.com/fm4se/website-theme/modules/blox-plugin-reveal -> ../../../modules/blox-plugin-reveal,\
+github.com/fm4se/website-theme/modules/blox-plugin-decap-cms -> ../../../modules/blox-plugin-decap-cms\
 "
 
 # Optionally pre-build and generate Pagefind index for local search

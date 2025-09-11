@@ -13,7 +13,7 @@ Supports math, syntax highlighting, diagrams, speaker notes, and much more!
    ```yaml
    module:
      imports:
-       - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal
+       - path: github.com/fm4se/website-theme/modules/blox-plugin-reveal
    ```
 
 ## Usage

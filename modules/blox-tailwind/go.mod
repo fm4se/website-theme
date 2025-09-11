@@ -1,5 +1,5 @@
-module github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
+module github.com/fm4se/website-theme/modules/blox-tailwind
 
 go 1.19
 
-require github.com/HugoBlox/hugo-blox-builder/modules/blox-analytics v0.2.0
+require github.com/fm4se/website-theme/modules/blox-analytics v0.2.0
